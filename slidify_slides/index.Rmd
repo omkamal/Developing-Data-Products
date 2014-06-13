@@ -40,7 +40,7 @@ pairs(dump)
 ---
 
 ## Sample of the server R code
-```{r,eval=FALSE}
+```{r,eval=FALSE, echo=TRUE}
 prepare_data_frame <- function(outcome,predictors) {
   df <- cbind(mtcars[,outcome],mtcars[,predictors])
   colnames(df) <- c(outcome,predictors)
@@ -68,7 +68,7 @@ shinyServer(
 
 ---
 ## User Interface code
-```{r, eval=FALSE}
+```{r, eval=FALSE, echo=TRUE}
 shinyUI(
   pageWithSidebar(
     headerPanel("Fitting mtcars variables and predictors"),

@@ -1,6 +1,7 @@
 #ui.R
 require(shiny)
 require(markdown)
+require(knitr)
 
 data(mtcars)
 

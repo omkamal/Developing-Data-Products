@@ -1,5 +1,5 @@
 ---
-title       : Fiting mtcars dynamically
+title       : Fiting mtcars 5
 subtitle    : Coursera Developing Data Products
 author      : A student in Cairo
 job         : QA Manager
@@ -8,6 +8,7 @@ highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
+github: {user: omkamal, repo: Developing-Data-Products}
 
 ---
 

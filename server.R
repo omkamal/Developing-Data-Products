@@ -24,9 +24,7 @@ shinyServer(
       f1 <- formula(f0)
       lm1 <- lm(f1,data=mtcars)
       summary(lm1)
-      
     })
-    
     
   }
 )
